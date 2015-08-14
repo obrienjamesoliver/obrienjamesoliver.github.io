@@ -1,0 +1,16 @@
+@media only screen and (min-width: 1140px) {
+
+    header, .row, footer {
+        max-width: 1140px;
+    }
+
+    .row, footer {
+        margin: .1em auto;
+    }
+
+    header {
+        margin: 0 auto;
+    }
+ 
+ 
+} /*end of the media query */

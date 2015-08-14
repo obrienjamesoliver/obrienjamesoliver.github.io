@@ -1,0 +1,141 @@
+/*-----Prevents Phone text from resizing in landscape mode -----*/
+html {-webkit-text-size-adjust: none; }
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*-----BODY -----*/
+body {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;	/*also loaded 600 for bold*/
+}
+
+/*-----HEADER -----*/
+#headerWrapper {
+	background-color: #3B4044;
+}
+header {
+	padding: 1em 2% .5em 2%;
+}
+
+header h1 {
+	font-size: 1.8em;
+	color: #fff;
+}
+
+/*----- FOOTER -----*/
+#footerWrapper {background-color: #979791;}
+footer {
+	clear: both;
+	font-size: .7em;
+	color: #fff;
+	text-align: center;
+	padding: .6em;
+}
+footer a {color: #fff;}
+
+/*------ Alert -----*/
+#alerts {
+
+    color:red;
+
+
+}
+
+/*----- Content -----*/
+#contentWrapper  {
+	background-color: #ffffff;
+}
+
+#contentWrapper .row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*----- Columns ----*/
+.column-10 {
+    width: 80%;   
+    float:left;
+}
+.column-2 {
+    width: 14%;
+    float:right;
+       
+}
+.column-12, .column-10, .column-2 {
+    margin: 1%;
+    color: #000000;
+
+}
+
+/*------ Result rows ----*/
+#results img {
+
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-right: 1em;
+
+}
+
+.resultPagination {
+    text-align:right;
+    font-size: .8em;
+    height: 1.6em;
+    white-space: nowrap;
+}
+
+.resultTotal {
+    text-align: left;
+    font-size: .8em; 
+    height:  1.6em;
+}
+
+#results h3 {
+
+    font-size: 1.1em;
+	font-weight:300;
+	color: #000000;
+	margin-top: .1em;  
+
+}
+
+#results h2 {
+	font-size: 1.4em;
+	font-weight: 800;
+	color: #000000;
+	margin: .3em;
+}
+
+/* ----- OTHER STUFF ----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#searchContent {
+    border-bottom: .1em solid black;
+}
+
+#queryString {
+    margin: 1em 0em;
+    text-align: left;
+    font-weight: 300;
+    padding: .5em;
+    width: 100%;
+    display: block; 
+
+}
+
+#searchbtn, #resetbtn {
+    padding: .2em 0;
+    text-align: center;
+    font-weight: 300;
+    margin: .1em 0;
+    border-radius:  1em;
+    width: 100%;
+    display: block; 
+}
