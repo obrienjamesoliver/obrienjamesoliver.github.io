@@ -13,4 +13,27 @@
     width: auto;
     display: inline; 
 }
+
+#results h3 {
+
+    font-size: 1.1em;
+	font-weight:300;
+	color: #000000;
+	margin-top: .1em;  
+
+}
+
+#results h2 {
+	font-size: 1.4em;
+	font-weight: 800;
+	color: #000000;
+	margin: .3em;
+}
+
+.resultPagination {
+    text-align:Left;
+    font-size: .8em;
+    height: 1.6em;
+    white-space: nowrap;
+}
 } /*end of the media query */

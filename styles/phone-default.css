@@ -20,8 +20,9 @@ header {
 }
 
 header h1 {
-	font-size: 1.8em;
+	font-size: 1.3em;
 	color: #fff;
+    white-space: nowrap;
 }
 
 /*----- FOOTER -----*/
@@ -81,10 +82,11 @@ footer a {color: #fff;}
 }
 
 .resultPagination {
-    text-align:right;
+    text-align:Left;
     font-size: .8em;
     height: 1.6em;
     white-space: nowrap;
+    padding-right: 2em;
 }
 
 .resultTotal {
@@ -95,7 +97,7 @@ footer a {color: #fff;}
 
 #results h3 {
 
-    font-size: 1.1em;
+    font-size: .8em;
 	font-weight:300;
 	color: #000000;
 	margin-top: .1em;  
@@ -103,7 +105,7 @@ footer a {color: #fff;}
 }
 
 #results h2 {
-	font-size: 1.4em;
+	font-size: .9em;
 	font-weight: 800;
 	color: #000000;
 	margin: .3em;
